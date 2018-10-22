@@ -177,7 +177,8 @@ def mainbody():
     Sets time limit to 60 seconds.
     Starts counting shots, misses, intargets, points.
     Includes 3 functions-generators.
-    Makes buttons needed to return to the menu, to start again and to choose numbers,
+    Makes buttons needed to return to the menu,
+    to start again and to choose numbers,
     according to what number the game asks to find.
     """
     Starttime = time.time()
@@ -193,7 +194,8 @@ def mainbody():
         """
         General function that contains 3 functions-generators.
 
-        Returns three lists - happy, prime and Ulam numbers with maximum number ~100
+        Returns three lists - happy, prime and Ulam numbers
+        with maximum number ~100
 
         (None) -> (list, list, list)
         """
@@ -379,9 +381,10 @@ def mainbody():
         """
         Ends game when player reached 60 secs.
         Generates random number's name among three that player has to find.
-        Adds points accordingly to what number was guessed and subtracts points 
+        Adds points accordingly to what number was guessed and subtracts points
         if the number guessed was wrong.
-        Chooses random number from three lists of numbers (Happies, Primes, Ulams).
+        Chooses random number from three lists
+        of numbers (Happies, Primes, Ulams).
         """
         if time.time() > Starttime + 60:
             endofgame()
@@ -547,6 +550,7 @@ def mainbody():
             preintro()
 
 
-preintro() # starts the game window
+preintro()   # starts the game window
 
-root.mainloop() # starts main functions of the game
+root.mainloop()   # starts main functions of the game
+
