@@ -6,7 +6,7 @@ The game "Guess That Number!" was developed by team called "Зламана Ка�
 
 --- Artem Teliuk (tkinter expert, game-process-creator, code writer)
 --- Mykhailo Pazyniuk (documentation creator, code writer, ideas analyst)
---- Nazar Todoshchuk (algorithms writer, code writer, game history creator)
+--- Nazar Todoshchuk (algorithms writer, code writer, ideas generator)
 
 The aim of creating the game was to help players find out more about Prime, Happy and Ulam numbers and to be able to identify them among others.
 
