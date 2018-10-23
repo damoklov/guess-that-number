@@ -1,5 +1,5 @@
 **********************************
-GUESS THAT NUMBER! ВИВЧИ ЦЕ ЧИСЛО!
+LEARN THAT NUMBER! ВИВЧИ ЦЕ ЧИСЛО!
 **********************************
 
 The game "Guess That Number!" was developed by team called "Зламана Кабіна" and its members: 

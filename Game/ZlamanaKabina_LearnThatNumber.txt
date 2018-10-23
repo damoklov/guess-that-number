@@ -1,0 +1,170 @@
+>>> Щоб запустити гру, перейдіть у відповідну папку із завчасно розпакованим архівом .zip
+
+1) Папка з грою містить усі необхідні файли для запуску, а також відповідну документацію двома мовами (укр. і англ.)
+2) Попередньо наполягаємо на встановленні Вами бібліотеки PyGame та Tkinter, якщо вони досі не були встановлені
+3) Відкрийте термінал та виконайте наступну команду:
+    pip install pygame
+4) Для запуску гри відкрийте термінал у папці, куди було розпаковано гру, та виконайте команду:
+    python3 game.py *для UNIX-систем
+    python game.py  *для Windows-систем
+5) Ознайомтеся з інтерфейсом гри -->
+    Кнопка Start! розпочне саму гру
+    Кнопка How to play надасть короткі відомості про хід гри
+    Кнопка Help with numbers надасть відомості (англійською мовою) про числа, які Ви оберете
+    НЕ натискайте заборонену кнопку!
+6) Після того, як Ви готові почати і натиснули Start! - гра розпочнеться -->
+    У верхній частині екрана Ви можете бачити свою поточну кількість балів, кількість промахів та попадань, а також кількість пострілів загалом
+    Також там розташовані кнопки Try again та Back to menu, які скидають Ваш рахунок або повертають Вас до початкового меню відповідно
+    Сірим кольором підсвічується назва тих чисел, одне з яких Вам потрібно знайти та натиснути на нього (напр. Prime -> 3, Ulam -> 2 ..)
+    
+7) Насолоджуйтеся грою
+
+>>> Мета гри?
+
+1) Гра була створена з метою навчати гравців нових типів чисел. Для прикладу, гравець може почитати про кожен із трьох типів чисел у грі у розділі "Help with numbers". 
+2) Після цього, гравець на практиці має змогу перевірити свої знання, обираючи із запропонованих (випадкових) чисел те, яке просить у нього гра.
+
+>>> Ознайомитись із сеттінгом, сценарієм та сюжетом гри можна у файлах docs_ua.txt та docs_en.txt (українською та англійською мовами відповідно)
+
+>>> Нижче наведений вміст файлів docs_ua.txt та docs_en.txt на випадок, якщо необхідно все мати в одному файлі.
+
+
+.......docs_ua.txt.......
+
+**********************************
+LEARN THAT NUMBER! ВИВЧИ ЦЕ ЧИСЛО!
+**********************************
+
+Гра "Вивчи це число" була розроблена командою "Зламана кабіна". Учасники команди:
+
+--- Артем Телюк (експерт з tkinter'у, розробник ігрового процесу, кодер)
+--- Михайло Пазинюк (розробник документації, кодер, аналітик ідей)
+--- Назар Тодощук (творець алгоритмів, кодер, творець історії гри)
+
+Метою створення цієї гри була допомога гравцям познайомитись із Простими, Вдалими числами та числами Улама, щоб могти їх згодом впізнавати серед інших.
+
+Ми висловлюємо подяку Українському католицькому університету за те, що в нас був шанс створити цю маленьку гру, нашому викладачеві, Андрію Романюку, за підтримку та наставництво, а також усім, хто так чи інакше допоміг нам у розробці цієї гри. Ми вас любимо!
+
+Мова програмування: Python
+Основні бібліотеки: Tkinter, PyGame, math
+
+*******
+СЕТТІНГ
+*******
+
+Сеттінг гри бере свій початок в сучасному суспільстві, де кожна велика компанія (і "Зламана кабіна" не є винятком) хоче зробити найкращий продукт. Ось чому ВИ, супер-досвідчений-альфа-бета-тестер-ігор, повинні висловити свою професійну думку про нову гру "Зламаної кабіни" для студентів - "Вивчи це число!". Що станеться, чи запуститься гра взагалі, чи не вимкнеться Ваш комп'ютер назавжди? Ви дійсно хочете це знати ?! Тоді відкрийте файл game.py через свій термінал (так-так, як у СТАРІ-ДОБРІ ЧАСИ!), і нехай подорож розпочнется !!!
+
+*****
+СЮЖЕТ
+*****
+
+Ви проста людина, яка випадково знайшла цю гру ...
+Ви вже читали про команду "Зламана кабіна", але ніколи не думали, що у вас буде можливість перевірити продукт молодих розробників ...
+Ви повернулися додому після важкого робочого дня і просто хочете відпочити, сидячи на дивані та читаючи свою улюблену книгу (Дугласа Адамса) ...
+Але Ваше відчуття відволікання не дозволяє зосередити увагу на читанні "Автостопом по Галактиці", так що Ви вирішуєте увімкнути ваш ПК ...
+Ніхто не знає як відкрилася гра ...
+Можливо, ви просто запустили її через термінал, тому що після багатьох років програмування Ви навіть не усвідомлюєте, чи набираєте щось на клавіатурі чи ні ...
+Хм ...
+Цікаве зображення, частина старої машини, що ж це може означати ...
+Ви натискаєте кнопку запуску ...
+/// Після довгих годин гри ///
+Що це було? Як зламався комп'ютер?! ...
+Раптом, спостерігаючи за монітором, Ви пам'ятаєте, що натиснули якусь кнопку ...
+Та ні, це не може бути правдою, троє юнаків не могли зламати мій ПК ...
+Стара комбінація CTRL + ALT + T викликає термінал на вашому екрані, і Ви бачите, що все повертається на свої місця ...
+Просто фото ...
+Це був жарт...
+Ви згадуєте, як були малим хлопцем, тільки починали писати простий код на Паскалі роки і роки тому; маленька сльоза повільно спадає з Вашого ока ...
+Ви точно знаєте, що вже ніколи не забудете цю гру ...
+
+********
+СЦЕНАРІЙ
+********
+
+Коли Ви усвідомили необхідність відкрити файл, Ви помітили, що гра не настільки ідеальна; Ви думаєте, що могли б змінити деякі деталі, внести деякі інші варіанти тощо. Але тоді Ви розумієте, що у команди з трьох молодих розробників не було так багато часу, щоб все це зробити, хоча вони, безумовно, покращать свої навички та, можливо, стануть новими відомими українськими розробниками, яких знатимуть мільйони ...
+Ви починаєте вивчати нові цифри і відкриваєте цілий новий світ різноманітних типів номерів, про які Ви раніше й не знали! Числа Улама, Вдалі, Прості числа ... 
+Ой-ой, ви грали протягом багатьох годин у цю гру і дізналися стільки нового, що тепер можете розповісти про гру усім знайомим .. АЛЕ СТОП! Що це за кнопка у правому куті екрана ..? На ній написано: "НЕ НАТИСКАЙ ЇЇ!" .. Можливо, є на то причина? Пфф, Ви не один з тих боягузів. Ви натискаєте її і ...
+
+
+
+
+Усі права застережено. 2018. "Зламана кабіна" є назвою, що її використовує команда та її шанобливі учасники.
+
+Більше про числа:
+
+https://oeis.org/A000959 https://en.wikipedia.org/wiki/Lucky_number
+
+https://oeis.org/A007770 https://en.wikipedia.org/wiki/Happy_number
+
+https://oeis.org/A002858 https://en.wikipedia.org/wiki/Ulam_number
+
+
+.......docs_en.txt.......
+
+**********************************
+LEARN THAT NUMBER! ВИВЧИ ЦЕ ЧИСЛО!
+**********************************
+
+The game "Guess That Number!" was developed by team called "Зламана Кабіна" and its members: 
+
+--- Artem Teliuk (tkinter expert, game-process-creator, code writer)
+--- Mykhailo Pazyniuk (documentation creator, code writer, ideas analyst)
+--- Nazar Todoshchuk (algorithms writer, code writer, game history creator)
+
+The aim of creating the game was to help players find out more about Prime, Happy and Ulam numbers and to be able to identify them among others.
+
+We express gratitude to Ukrainian Catholic University for giving us a chance to create this mini-game, to our teacher Andriy Romaniuk for support, and to all our heplers from university and international community. Much love!
+
+Programming language used: Python
+Main libraries: Tkinter, PyGame, math
+
+*******
+SETTING
+*******
+
+Game setting takes its place in a modern society, where each big company (and "Зламана кабіна" is not an exception) wants to make the best product possible. That`s why YOU, the super-experienced-alpha-beta-game-tester, have to express your professional opinion about the "Зламана кабіна"'s new game for students - 'Guess That Number!'. What's gonna happen, will the game even start, won't your PC die after all? You really want to know that?! Then open game.py file through your terminal (yeah, like in OLD GOOD TIMES!) and let the journey begin !!!
+
+****
+PLOT
+****
+
+You are just a person who found this game by chance...
+You read about "Зламана кабіна" team before, but never thought that you will have a chance to test a young developers' product...
+You returned home after a hard day at work and just want to relax, sitting on the sofa and reading your favorite (Douglas Adams's) book...
+But your feeling of distraction doesn't let you focus on reading 'The Hitchhiker's Guide to the Galaxy', so you manage to turn your PC on...
+No one knows how the game opened... 
+Maybe you just started it via the terminal, because after many years of programming you don't even realise whether you are typing on keyboard or no...
+Hmm...
+Interesting image there, the part of an old car, what could that mean...
+You press the start button...
+/// After long hours of playing ///
+What was that? How did my computer break?!...
+Suddenly, watching on the monitor you remembered that you had pressed a button...
+Well, it can't be true, three young boys couldn't have broken my PC...
+Old combination of CTRL+ALT+T raises the terminal on your screen and you see everything returning on their places...
+Just a photo...
+Just a joke...
+You remember you being a kid and starting to write some simple code on Pascal years and years ago as a small tear slowly falls from your eye...
+You definetely won't forget this game...
+
+********
+SCENARIO
+********
+
+As you realised the necessity to open the file, you notice that game is not so perfect, you think that you could have changed some details, made some more options and so on. But then you realise that the team of three young developers didn't have so much time to do all of that, although they surely will improve their skills and maybe become new Ukrainian well-known devs, who knows..
+You start to learn new numbers and opened the whole new world of different types of numbers that you hadn't known about before! Ulam numbers, Happy, Primes.. Oh my, you played for hours in this game and learned so much new that now you can tell about the game to everyone.. BUT WAIT! What is that button in the right corner of the screen..? It says 'DO NOT PRESS THIS!'.. Maybe there is a reason? Pff, you are not one of those coward. You PRESS it and...
+
+
+
+
+All rights reserved. 2018. "Зламана кабіна" is a name, reserved by team's respectful members.
+
+More about the numbers:
+
+https://oeis.org/A000959 https://en.wikipedia.org/wiki/Lucky_number
+
+https://oeis.org/A007770 https://en.wikipedia.org/wiki/Happy_number
+
+https://oeis.org/A002858 https://en.wikipedia.org/wiki/Ulam_number
+
+

@@ -7,3 +7,7 @@ Game itself was made aiming for teaching different kinds of numbers - Ulam's, Ha
 /// UPD 22.10.2018: Game files were put into the "Game" directory.. Game is ready to play.. Our team is making some minor supplements
 
 /// UPD 22.10.2018: Updated game.py with pep8 requirements
+
+/// UPD 23.10.2018: Updated game.py with additional documentation.. Merged docs_en.txt, docs_ua.txt and readme.txt into one file..
+
+

@@ -155,7 +155,10 @@ number\n(1+2); and 4 is an Ulam number (1+3). Ex: 1, 2, 3, 4, 6, 8, 11, 13, \
         docum.grid(columnspan=4, row=4)
         docum.insert(END,
                      "When you click the `start` button, the game will start\n\
-tra-la-la-la-laaa-la")
+The game lasts 60 seconds. If you beat the previous record, then it \
+will be erased and the new record will be set.\n\
+Try to guess as many numbers as you can. \
+Each failure costs some points, so be careful!")
 
     def easter():
         """
